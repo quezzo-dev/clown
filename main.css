@@ -10,10 +10,19 @@
 
 
 .serega {
-    width: 500px;
-    height: 700px;
+    width: 260px;
+    height: 360px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .serega {
+        width: 500px;
+        height: 700px;
+    }
 }
